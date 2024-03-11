@@ -32,5 +32,14 @@ Write your views/pages into Routers of `src/router.js` files.
 
 ## Redux
 
+Use [Redux and Redux ToolKit](https://redux.js.org/) for some global state managment. Create your reducers/slicers under folder `src/reducers/` and add it to `src/store.js`
+
+An usage example can be found in `src/reducers/exampleSlicer.js` and usage can be found in `src/pages/CardHomePage.jsx`.
+
+Redux by default store states in memory. So use `localStorage`, `sessionStorage` for longer data storage in your app. 
+
+If you need to add middleware or change `store.js` for otehr reasons, ask Yaohong to modify the it.
+
+
 
 ## Css
