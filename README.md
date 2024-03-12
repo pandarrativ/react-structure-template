@@ -14,7 +14,6 @@ For example, `HomePage.jsx` for Card system should be named as  `CardHomePage.js
 
 
 # Project Folder Structures
-
 Create sub folders for better file maintainence if possible.
 `src/assets`: put your static files such as images, videos, icons under this folder.
 `src/components`: put your components under this foler.
@@ -31,21 +30,26 @@ Use [React-Router](https://reactrouter.com/en/main) for page navigation.
 Write your views/pages into Routers of `src/router.js` files.
 
 ## Redux
-
 Use [Redux and Redux ToolKit](https://redux.js.org/) for some global state managment. Create your reducers/slicers under folder `src/reducers/` and add it to `src/store.js`
 
 An usage example can be found in `src/reducers/exampleSlicer.js` and usage can be found in `src/pages/CardHomePage.jsx`.
 
-Redux by default store states in memory. So use `localStorage`, `sessionStorage` for longer data storage in your app. 
+Redux by default store states in memory. So use `localStorage`, `sessionStorage` for longer data storage in your app (contact Yaohong if you think it is neccessary to use localStorage and sessionStorage as Redux storing method).  
 
 If you need to add middleware or change `store.js` for otehr reasons, ask Yaohong to modify the it.
 
 
 
 ## css, UI, icons
-
 We use [tailwind css](https://tailwindcss.com/) as our css framework and [DaisyUI](https://daisyui.com/components/)  as UI framework.
 
 Below are some icons libraries:
  - [Heroicons](https://heroicons.com/)
  - [Ali icon](https://www.iconfont.cn/)
+
+
+ ## VSCode Plugins Recomendation
+ Below are some vscode extension commonly used for React development:
+  - Tailwind CSS IntelliSense  (for tailwind)
+  - Simple React Snippets (for creating react code with snippets)
+  - Prettier - Code formatter
