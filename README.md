@@ -16,13 +16,13 @@ For example, `HomePage.jsx` for Card system should be named as  `CardHomePage.js
 # Project Folder Structures
 
 Create sub folders for better file maintainence if possible.
-`src/assets`: put your static files such as images, videos, icons under this folder. 
+`src/assets`: put your static files such as images, videos, icons under this folder.
 `src/components`: put your components under this foler.
 `src/pages`: put your files of a whole page/view/controler under this folder and add it to `src/router.js` for page navigation.
 `src/config`: put for configuration files or some constants under this folder.
 `src/slicers`: put your Redux slicers/reducers in under this folder and add it to `src/store.js`.
 
-For css files, create a folder for each page or component, and put you .jsx file and .css file under this project. (An example is `src/pages/CardHomePage`)
+For css files, create a folder for each page or component, and put you .jsx file and .css file under this project. (An example is `src/pages/CardHomePage`). For css styles which should be general to all projects, place it under `app.css` or `index.css`
 
 
 ## Routers
@@ -42,4 +42,10 @@ If you need to add middleware or change `store.js` for otehr reasons, ask Yaohon
 
 
 
-## Css
+## css, UI, icons
+
+We use [tailwind css](https://tailwindcss.com/) as our css framework and [DaisyUI](https://daisyui.com/components/)  as UI framework.
+
+Below are some icons libraries:
+ - [Heroicons](https://heroicons.com/)
+ - [Ali icon](https://www.iconfont.cn/)
