@@ -23,6 +23,10 @@ Create sub folders for better file maintainence if possible.
 
 For css files, create a folder for each page or component, and put you .jsx file and .css file under this project. (An example is `src/pages/CardHomePage`). For css styles which should be general to all projects, place it under `app.css` or `index.css`
 
+For icons, it is recomended link the icon in your code instead of downloaded into project (such as using third parties like `Heroicons`). If you do need some icons to be downloaded:
+ - for icons specific to a component or page, palce it under the folder with your `.jsx` and `.css`.
+ - for icons of general purpuse or used by many files, place it under `src/assets/icons/`
+
 
 ## Routers
 Use [React-Router](https://reactrouter.com/en/main) for page navigation.
