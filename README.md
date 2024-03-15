@@ -7,6 +7,17 @@ This structure template is based on Node20 (node=v20.11.1, npm=10.2.3).
 
 To manage and change Node version, you may use [nvm](https://github.com/nvm-sh/nvm)
 
+
+
+## Sett up Instructions
+
+```shell
+cd <Your_project_folder>/
+nvm use
+npm install
+npm start
+```
+
 # Naming Conversation
 For each subsystem components/pages, files should start with your subsystem name. For general component/pages, you don't have to follow the rule.
 
